@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        /* CSS for styling */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to Our Website!</h1>
+        <p>Explore our collection of images related to different topics.</p>
+        <a href="https://example.com/technology" target="_blank">
+            <img src="technology.jpg" alt="Technology Image">
+        </a>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Nature Gallery</h2>
+        <div class="gallery">
+            <a href="https://example.com/nature1" target="_blank">
+                <img src="nature.jpg" alt="Nature Image 1">
+            </a>
+            <a href="https://example.com/nature2" target="_blank">
+                <img src="nature.jpg" alt="Nature Image 2">
+            </a>
+            <a href="https://example.com/nature3" target="_blank">
+                <img src="nature.jpg" alt="Nature Image 3">
+            </a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="https://example.com/food1" target="_blank"><img src="food.jpg" alt="Food 1"></a></li>
+            <li><a href="https://example.com/food2" target="_blank"><img src="food.jpg" alt="Food 2"></a></li>
+            <li><a href="https://example.com/food3" target="_blank"><img src="food.jpg" alt="Food 3"></a></li>
+        </ul>
+    </section>
+</body>
+</html>
