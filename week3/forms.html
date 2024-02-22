@@ -16,7 +16,13 @@
         <input type="text" id="name" name="name" placeholder="Enter You name"><br>
 
         <label for="password">Password:</label>
-        <input type="password" id="password" name="password" placeholder="Enter Your password"><br>
+        <input type="password" id="password" name="password" placeholder="Enter Your password" aria-describedby="password-hint"><br>
+
+        <div id="password-hint">
+            password must be atlest 8 characters long
+
+        </div>
+        
 
         <label for="">Choose your preffered payment method:</label> <br>
         <input type="radio" id="creditCard" name ="paymentMethod" value="creditCard">
@@ -26,9 +32,27 @@
         <label for="paypal">PayPal</label> <br>
 
         <input type="radio" id="bitcoin" name="paymentMethod" value="bitcoin">
-        <label for="bitcoin">Bitcoin</label>
+        <label for="bitcoin">Bitcoin</label> <br> <br>
 
 <!-- name arttributes group the radio buttons together, allowing users to select one option  -->
+
+<!-- checkboxes -->
+
+<label >Interests</label> <br>
+<input type="checkbox" id="music" name="intrest" value="music">
+<label for="musisc">Music</label> <br>
+<input type="checkbox" id="sports" name="intrest" value="sports">
+<label for="sports">Sports</label> <br>
+<input type="checkbox" id="reading" name="interest" value="intrest">
+<label for="reading">Reading</label> <br><br>
+
+<button type="Submit">Submit</button>
+<input type="dropdown">
+
+
+
+
+
 
 
 
