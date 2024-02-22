@@ -1,0 +1,18 @@
+h1{
+    font-family: 'Courier New';
+    color: tomato;
+    background-color: lightcyan; 
+}
+/* Selectors
+1. Element
+2. Class - each element can have multiple classes and each class can  also be applied to multiple elements (.class)
+3. ID -one id can only be asigned to one element (#id)
+*/
+
+/* Css Spacing - helps arrange every element of web app in a neat and sensible manner(how you insert space in between css elements
+
+
+
+
+
+ */
