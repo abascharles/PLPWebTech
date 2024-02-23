@@ -9,10 +9,33 @@ h1{
 3. ID -one id can only be asigned to one element (#id)
 */
 
-/* Css Spacing - helps arrange every element of web app in a neat and sensible manner(how you insert space in between css elements
+/* 
+Css Spacing 
+- helps arrange every element of web app in a neat and sensible manner(how you insert space in between css elements
 
-
-
-
+Types of spacing
+-Internal spacing
+-External spacing
 
  */
+
+ .box{
+    padding: 2rem;  /*adds internal space - inc size of an element */
+    border: 2px solid black;
+ }
+
+ #box1{
+    margin-bottom:2rem; adds external space -
+ }
+
+
+ #box2{
+    background-color: #9b59b6;
+    color: azure;
+    margin-left: 2rem;
+ }
+
+
+
+
+ 

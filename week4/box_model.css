@@ -1,0 +1,32 @@
+The box Model */
+
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+ }
+ .box{
+    /* Content */
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    /* padding */
+    padding: 20px;
+
+    /* Border */
+    border:10px soilid #3498db;
+
+    /* magrgin */
+    margin: 30px;
+    background-color: #b65975;
+    color: white;
+
+ }
