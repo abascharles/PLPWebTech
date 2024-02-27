@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Emmet</title>
+    <link rel="stylesheet" href="emmet.css">
+</head>
+<body>
+
+    <!-- element.class to generate an element with a class -->
+    <span class="purple"></span>
+
+    <!-- with ids its elemment#id -->
+    <sapn id="id"></sapn>
+
+    <!-- example of multiple usage -->
+    .box1#id-1
+    <div class="box1 box2" id="id-1"></div>
+
+    <a href=""></a>
+
+
+    <header>
+        <nav>
+            <ul>
+                <li>home</li>
+                <li>about</li>
+                <li>contact us</li>
+            </ul>
+        </nav>
+    </header>
+<!-- Using dollar sign to add numbers (child)-->
+header>nav>ul>>li*3{Hey man $}
+    <header>
+        <nav>
+            <ul>
+                <li>Hey men 1</li>
+                <li>Hey men 2</li>
+                <li>Hey men 3</li>
+            </ul>
+        </nav>
+    </header>
+<!-- subchild -->
+header+nav+main+fooer
+
+
+</body>
+</html>
