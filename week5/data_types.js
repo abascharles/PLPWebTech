@@ -8,9 +8,22 @@ console.log("The message is:" + message);
 
         // template string format
 let name = "John";
-console.log(`${name} is here today`);   //use backticks
+console.log(`${name} is here today`);   //use backticks to wrap character
 
-// Booleans
+// Booleans- represebts true or false values
+let on = true;
+let off = false;
+
+console.log(on);
+
 // Numbers
-// Null
-// Unidentified
+// Null - represents empty or unkown value
+ 
+let lastName = null;
+
+
+
+
+// Unidentified - variable that has not been assigned any value yet.
+let firstName;
+console.log(firstName);
