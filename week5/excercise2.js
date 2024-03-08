@@ -11,3 +11,6 @@ const occupation = "Software Engeenieering";
 
 
 console.log(name, age, occupation);
+
+// conatant variable.
+//  variable that deoes not change its value as long a the program is running.
