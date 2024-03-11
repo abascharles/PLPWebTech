@@ -3,26 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Codecademy Login page clone</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Codecademy Signup</title>
+    <link rel="stylesheet" href="signup.css" />
   </head>
   <body>
     <div class="container">
       <div class="header">
-        <h1>Login to Codecademy</h1>
+        <h1>Get started for free</h1>
       </div>
-      <form action="name and location" method="POST">
-        <label for="email">Email or Username</label>
+
+      <form action="name and location" method="post">
+        <label for="email">Email</label>
         <input type="email" name="email" id="email" />
-        <label for="">Password</label>
+
+        <label for="password">Password</label>
         <input type="password" name="password" id="password" />
 
-        <a href="#">I forgot my password</a>
-
-        <input type="submit" value="Log in" />
+        <input type="submit" value="Sign Up" />
+        <p>
+          By signing up for Codecademy, you agree to Codecademy's<a href="#"
+            >Terms of Service & Privacy Policy</a
+          >
+        </p>
       </form>
+
       <div class="footer">
-        <h3>Log in with another account</h3>
+        <h3>Or sign up using:</h3>
         <div class="images">
           <img src="images/google.png" alt="google" />
           <img src="images/facebook.png" alt="facebook" />
@@ -30,7 +36,7 @@
           <img src="images/github.png" alt="github" />
           <img src="images/apple.png" alt="apple" />
         </div>
-        <a href="#"> Not a member yet? <strong>Sign up for free</strong></a>
+        <h3>Already have an account? <a href="#">Log in</a></h3>
       </div>
     </div>
   </body>

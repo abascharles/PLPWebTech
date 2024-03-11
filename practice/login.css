@@ -24,6 +24,7 @@ body {
     margin: 0 auto; /* Adjusted margin */
 }
 
+
 form {
     display: flex;
     flex-direction: column;
