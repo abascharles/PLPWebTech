@@ -18,9 +18,16 @@ console.log(3===3);
 
 // logical operators 
 // logical AND - if any expression returns false, the result is false
-console.log(7>2 && 5>4);
+console.log(7>2 && 5>4); //true
 
 // logical OR  - if any expression returns true, the result is true
-
+console.log(5 > 3 || 2<1); //true - as one of the operands is true
 
 // ! NOT operator - negates the expression, returning the opposite.
+
+console.log(!false); //true
+
+
+// type of operator 
+x = 5 ;
+console.log(typeof x);
