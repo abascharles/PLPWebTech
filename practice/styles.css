@@ -9,6 +9,7 @@
     --main-color: #6400e4;
     --box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.34);
     --hover-shadow: 0px 4px 4px 0px rgba(3, 3, 3, 0.561);
+    /*horizontal and vertical offsets, blur radius, spread radius, and color.  */
     --nav-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.100);
     --light-black: #141c3a;
 }
