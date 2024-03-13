@@ -18,3 +18,12 @@ console.log(birds);
 
 birds.pop();
 console.log(birds);
+
+
+// adding items infornt of an index at 0 
+birds.unshift('pigeon');
+
+//Getting the index of an item in an a array
+
+console.log(birds.indexOf('Owl'));
+console.log(birds.length);
