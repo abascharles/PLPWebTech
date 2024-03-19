@@ -14,3 +14,12 @@ function greet(name = 'Nathan' ){
 
 greet();
 greet('James');
+
+
+// Mixed parameter
+
+function sing(melody, name = 'Tindel'){
+    console.log(`Hello ${melody} is it ${name}`);
+}
+
+sing();
