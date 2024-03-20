@@ -2,7 +2,7 @@
 
 let myBook = {
     title: 'Sebastian',
-    book: 'Kingkong',
+    author: 'Kingkong',
     describe:function(){
         console.log(`Book title: ${this.title}`);
 
@@ -16,12 +16,12 @@ let myBook = {
 
 //.notation
 console.log(myBook.title);
-console.log(myBook.book);
+console.log(myBook.author);
 
 // [] bracket
 
 console.log(myBook['title']);
-console.log(myBook["book"]);
+console.log(myBook["author"]);
 
 // Adding element to an object 
 
@@ -34,3 +34,11 @@ myBook['publisher'] = 'Code With Nathan';
 console.log(myBook);
 
 // delete object  properties
+
+delete myBook.author;
+
+console.log(myBook);
+
+// check is a property is present in an object  using in 
+
+console.log('age' in myBook);
