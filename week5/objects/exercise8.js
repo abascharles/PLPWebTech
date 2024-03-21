@@ -14,12 +14,12 @@ person.greet();
 
 let person = {
     name: 'Abas',
-    age:'24',
+    age: 24,
 
     greet:function () {
         console.log('Hey there mate!');
-        console.log(`This is my friend ${this.name} and he is ${this.age} years old`);
-    }
+        console.log(`My name is ${this.name} and i'm  ${this.age} years old`);
+    },
 
 }
 
