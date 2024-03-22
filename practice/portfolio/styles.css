@@ -1,0 +1,71 @@
+*{
+    font-family: centuary 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container .navbar{
+    background-color: #333;
+    padding: 10px;
+  } 
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+ 
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+
+}
+
+.body{
+    display: flex;
+}
+
+.body .text{
+    padding: 100px;
+    margin-right: 10px;
+    margin-left: 30px;
+
+}
+
+h1 span {
+    color: orange;
+    font-size: 50px;
+}
+
+.image{
+    padding: 100px;
+    margin-right:100px ;
+
+}
+.image img{
+    border-radius: 50px ;
+    width: 300px;
+    height: auto;
+       
+}
+
+.text button{
+    border: 1px solid orange;
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius:15px ;
+}
+button:hover{
+    background-color: orange;
+    color: black;
+}
