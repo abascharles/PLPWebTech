@@ -7,7 +7,6 @@ body {
 .container .navbar{
     background-color: black ;
     padding: 10px;
-    text-align: center;
   } 
 ul{
   list-style-type: none;
